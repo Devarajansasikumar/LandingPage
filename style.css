@@ -1,0 +1,549 @@
+.body{
+    padding: 0;
+    margin: 0 85px;
+}
+
+.header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo img{
+    display: flex;
+    position: relative;
+    width: 100px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    color: #4F5665;
+}
+
+.signin , .signup{
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.signup{
+    color: red;
+    border: 1px solid red;
+}
+
+.menuIcon{
+    display: none;
+}
+
+.HomeScreen{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftHome{
+    width: 50%;
+}
+
+.heading1 , .heading2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading2 span{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subheading{
+    margin-top: 20px;
+    color: #4F5665;
+}
+
+.homebtn{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.rightHome{
+    width: 50%;
+}
+
+.homeimg{
+    width: 550px;
+}
+
+.homepattern{
+    margin-top: 50px;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.pattern1{
+    width: 33%;
+    padding: 45px 45px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-content: center;
+}
+
+.homepattern span{
+    width: 1px;
+    height: 80px;
+    background-color: #EEEFF2;
+    margin: 25px 0;
+}
+
+.p1img{
+    width: 35px;
+    height: 35px;
+}
+
+.p1content{
+    font-weight: bold;
+}
+
+.p1content2{
+    color: #4F5665;
+}
+
+.featureScreen{
+    width: 100%;
+    margin: 80px 0;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftfeature{
+    width: 50%;
+}
+
+.featureimg{
+    width: 500px;
+    height:350px;
+} 
+
+.rightfeature{
+    width: 50%;
+}
+
+.rightfeature ol{
+    list-style: none;
+    margin-left: -40px;
+    
+}
+
+.rightfeature li{
+    line-height: 45px;
+}
+
+.rightfeature img{
+    width: 15px;
+    padding-right: 5px;
+}
+
+.planScreen{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.planScreenHeading{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 15px;
+}
+
+.planScreenSubheading{
+    padding-top: 10px;
+    color: #4F5665;
+}
+
+.planContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    min-width: 300px;
+    min-height: 650px;
+    border: 1px solid #4F5665;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.planimg{
+    width: 120px;
+    margin-top: 35px;
+}
+
+.planType{
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.planScreen ol{
+    list-style: none;
+    color: #4F5665;
+    margin-left: -25px;
+}
+
+.planScreen li{
+    line-height: 40px;
+}
+
+.plantick{
+    width: 15px;
+    padding-right: 10px;
+}
+
+.planCost{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 55px; 
+}
+
+.planCost span{
+    color: #4F5665;
+}
+
+.planBtn{
+    padding: 10px;
+    width: 130px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-top: 15px;
+    position: absolute;
+    bottom: 5px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.plan3{
+    border: 2px solid red;
+}
+
+.btn3{
+    background-color: red;
+    color: white;
+}
+
+.networkScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.netHeading{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.netSubHeading{
+    padding: 20px 0 80px 0;
+    color: #4F5665;
+}
+
+.map , .sponsors{
+    width: 70%;
+}
+
+.reviewScreen{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+
+.cardInfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.userReview{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.card1{
+    border: 1px solid red;
+}
+
+.subscribeScreen{
+    padding: 15px 25px;
+    margin: 30px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.subscHeading{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+}
+
+.subscSubHeading{
+    color: #4F5665;  
+    margin-left: 60px; 
+    padding-top: 10px; 
+}
+
+.SubscribeBtn{
+    background-color: red;
+    width: 150px;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+.SubscribeBtn:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    margin-left: 25px;
+    margin-top: 50px;
+    padding: 50px;
+    position: relative;
+    background-color: #F8F8F8;
+}
+
+.footerdetails{
+    color: #4F5665;
+    width: 400px;
+    padding-top: 10px;
+}
+
+.footerMenu{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    right: 15%;
+}
+
+.products ol li{
+    list-style: none;
+    color: #4F5665;
+    line-height: 40px;
+}
+
+.productsHeading{
+    font-weight: bold;
+    color: black;
+}
+
+.socialIcons{
+    cursor: pointer;
+    padding-top: 30px;
+    margin-left: -15px;
+}
+
+.copyrights{
+    color: #4F5665;
+}
+
+/*Mobile Design*/
+
+@media only screen and (max-width: 600px){
+
+    .menu , .button{
+        display: none;
+    }
+
+    .menuIcon{
+        display: block;
+    }
+
+    .mobileMenu{
+        display: none;
+        flex-direction: column;
+        gap: 10%;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 35%;
+        margin: 0;
+        height: 100vh;
+        background-color: white;
+        padding: 30px;
+    }
+
+    .mbutton{
+        align-items: center;
+        padding: 10px;
+    }
+
+    .mobileMenu ul{
+        width: 100%;
+    }
+
+    .mobileMenu ul li{
+        list-style: none;
+        width: 100%;
+        padding: 10px;
+        margin-left: -50px;
+        border-bottom: 1px dotted grey;
+    }
+
+    .mobileMenu ul li:hover{
+        background-color: #4F5665;
+        color: white;
+    }
+
+    .menuIcon:hover > .mobileMenu{
+        display: flex;
+    }
+
+    .HomeScreen{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .leftHome , .rightHome{
+        width: 100%;
+        margin: 0;
+    }
+
+    .homeimg{
+        width: auto;
+    }
+
+    .homepattern{
+        flex-direction: column;
+        height: 380px;
+        margin: 20px 0 0 0;
+    }
+
+    .pattern1 span{
+        width: 80%;
+        height: 1px;   
+    }
+
+    .featureScreen{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .leftfeature , .rightfeature{
+        width: 100%;
+        margin: 0;
+    }
+
+    .featureimg{
+        width: 90%;
+    }
+
+    .heading1 , .heading2{
+        font-size: 35px;
+    }
+
+    .planContainer{
+        flex-direction: column;
+    }
+
+    .subscribeScreen{
+        min-width: 200px;
+        margin-left: -40px;
+        height: 1%; 
+    }
+
+    .subscHeading{
+        width: auto;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .subscSubHeading{
+        margin-left: -10px;
+    }
+
+    .SubscribeBtn{
+        position: unset;
+        margin-top: 10px;
+        margin-left: -10px;
+        padding: 10px;
+        width: 120px;
+    }
+
+    .flogo{
+        margin-left: -100px;
+    }
+
+    .footerdetails{
+        margin-left: -100px;
+        width: 250px;       
+    }
+
+    .footerMenu{
+        position: relative;
+        display: block;
+        margin-left: -130px;
+    }
+
+    .socialIcons{
+        display: flex;
+        margin-left: -130px;
+    }
+
+    .copyrights{
+        margin-left: -100px;
+    }
+
+}
